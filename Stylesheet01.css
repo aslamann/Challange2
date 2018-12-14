@@ -5,3 +5,13 @@ th{
 th#th01{
     text-align: center;
 }
+.column{
+    float: left;
+    padding: 5px;
+    width: 33,33%;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
